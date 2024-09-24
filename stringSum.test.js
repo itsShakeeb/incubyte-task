@@ -9,7 +9,11 @@ describe("Sum of strings", () => {
     expect(stringSum("2,3,4")).toBe(9);
   });
 
-  test("Should return all negative number as string from string", () => {
+  test("Should return all negative number as string from input string", () => {
     expect(stringSum("-1,2,3,-4")).toBe(`${negate_msg} -1,-4`);
+  });
+
+  test("Should return sums of number regardless of delimiter", () => {
+    expect(stringSum("//;1\n;2")).toBe(3);
   });
 });
