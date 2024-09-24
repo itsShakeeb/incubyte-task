@@ -1,0 +1,18 @@
+{
+  "name": "incubyte-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/itsShakeeb/incubyte-task.git",
+  "author": "itsShakeeb shakeebadab50@gmail.com",
+  "license": "MIT",
+  "scripts": {
+    "test:stage": "jest -o"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8"
+  }
+}
